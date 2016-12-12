@@ -1,0 +1,21 @@
+{
+  "tutofileversion":0,
+  "application":"/usr/share/applications/wps-office-et.desktop",
+  "application_version":"10.1.0.5672~a21",
+  "windowTitleFilter":"Spreadsheets",
+  "name":"How to create a title page",
+  "width":800,
+  "height":600,
+  "description":"Shows steps to create a title page",
+  "steps":[{
+    "actionZone":["rectangle", [50, 50, 100, 100]],
+    "title":"This is the first action to execute",
+    "description":"Click in the designated area",
+    "descriptionPosition":["point", [250, 250]]
+  },{
+    "actionZone":["rectangle", [100, 100, 150, 150]],
+    "title":"This is the second action to execute",
+    "description":"Again, click in the designated area so you can complete this tutorial and go back to the tutorial center"
+  }]
+}
+

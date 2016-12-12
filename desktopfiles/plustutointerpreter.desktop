@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Tutorial Interpreter
+Name[fr]=Interpréteur de tutoriels
+Exec=plustutointerpreter %f
+Icon=plustutointerpreter
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=System
+MimeType=application/libtuto

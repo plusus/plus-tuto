@@ -1,0 +1,72 @@
+{
+  "tutofileversion":0,
+  "application":"/usr/share/applications/wps-office-wps.desktop",
+  "application_version":"10.1.0.5672~a21",
+  "width":900,
+  "height":600,
+  "windowTitleFilter":"Writer",
+  "windowTitleFilter_i18n":{
+    "fr":"Writer"},
+  "name":"How to create titles",
+  "name_i18n":{
+    "fr":"Comment créer des titres"},
+  "description":"Discover the steps to be able to change between different styles to create titles",
+  "description_i18n":{
+    "fr":"Découvrir les étapes pour être capable de changer entre les différents styles pour créer des titres"},
+  "steps":[{
+    "actionZone":["rectangle", [712, 59, 773, 115]],
+    "title":"Normal style",
+    "title_i18n":{
+      "fr":"Style normal"},
+    "description":"By default text is in a normal style, click here to write in normal style",
+    "description_i18n":{
+      "fr":"Par défaut le texte est en mode normal, cliquez ici pour écrire en style normal"}
+  },{
+    "actionZone":["rectangle", [140, 275, 700, 500]],
+    "title":"Writing normal text",
+    "title_i18n":{
+      "fr":"Écriture de texte normal"},
+    "description":"Write one word and click on the highlighted square",
+    "description_i18n":{
+      "fr":"Écrivez un mot et cliquez dans le carré éclairé"},
+    "descriptionPosition":["point", [40, 250]]
+  },{
+    "actionZone":["rectangle", [776, 59, 837, 115]],
+    "title":"Making a title",
+    "title_i18n":{
+      "fr":"Créer un titre"},
+    "description":"Click here to change the word into a title",
+    "description_i18n":{
+      "fr":"Cliquez ici pour changer le mot en titre"}
+  },{
+    "actionZone":["rectangle", [843, 78, 855, 95]],
+    "title":"Browse other styles",
+    "title_i18n":{
+      "fr":"Parcourir les différents styles"},
+    "description":"You can click on the arrow to see other styles",
+    "description_i18n":{
+      "fr":"Vous pouvez cliquer sur la flèche à côté pour voir les autres styles disponibles"},
+    "previousStepClick":["point", [743, 87]]
+  },{
+    "actionZone":["rectangle", [712, 59, 773, 115]],
+    "title":"Making a subtitle",
+    "title_i18n":{
+      "fr":"Créer un sous-titre"},
+    "description":"If you want a subtitle click on Title 2",
+    "description_i18n":{
+      "fr":"Si vous voulez un sous-titre cliquez sur Titre 2"},
+    "previousStepClick":["point", [849, 65]]
+  },{
+    "actionZone":["rectangle", [776, 59, 837, 115]],
+    "title":"Levels of title",
+    "title_i18n":{
+      "fr":"Niveaux de titre"},
+    "description":"There are multiple levels of titles, they will be hierarchised",
+    "description_i18n":{
+      "fr":"Il y a plusieurs niveaux de titres, ceux-ci auront une hiérarchie dans la table des matières"}
+  }],
+  "configFiles":[{
+    "defaultConfigFile":"#DEFAULT#/WpsOffice.conf",
+    "fileToOverride":"~/.config/Kingsoft/Office.conf"
+  }]
+}

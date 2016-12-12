@@ -1,0 +1,47 @@
+{
+  "tutofileversion":0,
+  "application":"/usr/share/applications/wps-office-wpp.desktop",
+  "application_version":"10.1.0.5672~a21",
+  "width":800,
+  "height":600,
+  "windowTitleFilter":"Presentation",
+  "windowTitleFilter_i18n":{
+    "fr":"Presentation"},
+  "name":"Animation",
+  "name_i18n":{
+    "fr":"Animation"},
+  "description":"Choosing an animation for a slide",
+  "description_i18n":{
+    "fr":"Choisir une animation pour une diapositive"},
+  "steps":[{
+    "actionZone":["rectangle", [251, 33, 321, 50]],
+    "title":"Animation tab",
+    "title_i18n":{
+      "fr":"Onglet animation"},
+    "description":"Click on the animation tab",
+    "description_i18n":{
+      "fr":"Cliquez sur l'onglet animation"}
+  },{
+    "actionZone":["rectangle", [504, 60, 572, 105]],
+    "title":"Choosing an animation",
+    "title_i18n":{
+      "fr":"Choisir une animation"},
+    "description":"Click on an animation to apply it to the current slide",
+    "description_i18n":{
+      "fr":"Cliquez sur une animation pour l'appliquer à la diapositive en cours"},
+    "previousStepClick":["point", [34, 43]]
+  },{
+    "actionZone":["rectangle", [330, 63, 374, 105]],
+    "title":"Removing an animation",
+    "title_i18n":{
+      "fr":"Enlever une animation"},
+    "description":"Click on None to remove the animation",
+    "description_i18n":{
+      "fr":"Cliquez sur Aucun pour enlever l'animation"},
+    "previousStepClick":["point", [355, 83]]
+  }],
+  "configFiles":[{
+    "defaultConfigFile":"#DEFAULT#/WpsOffice.conf",
+    "fileToOverride":"~/.config/Kingsoft/Office.conf"
+  }]
+}

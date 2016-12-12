@@ -1,0 +1,67 @@
+{
+  "tutofileversion":0,
+  "application":"/usr/share/applications/wps-office-wps.desktop",
+  "application_version":"10.1.0.5672~a21",
+  "width":800,
+  "height":600,
+  "windowTitleFilter":"Writer",
+  "windowTitleFilter_i18n":{
+    "fr":"Writer"},
+  "name":"How to select a font",
+  "name_i18n":{
+    "fr":"Comment sélectionner une police"},
+  "description":"Choosing a nice font",
+  "description_i18n":{
+    "fr":"Choisir une belle police"},
+  "steps":[{
+    "actionZone":["rectangle", [350, 137, 365, 152]],
+    "title":"Closing the online templates",
+    "title_i18n":{
+      "fr":"Fermer les modèles en ligne"},
+    "description":"Click on the X to close the online templates",
+    "description_i18n":{
+      "fr":"Fermer les modèles en ligne"}
+  },{
+    "actionZone":["rectangle", [171, 309, 238, 400]],
+    "title":"Create a blank file",
+    "title_i18n":{
+      "fr":"Créer un fichier vierge"},
+    "description":"Click on the icon to create a new blank file",
+    "description_i18n":{
+      "fr":"Cliquez sur l'icône de nouveau fichier vierge"}
+  },{
+    "actionZone":["rectangle", [357, 65, 368, 80]],
+    "title":"Showing the fonts",
+    "title_i18n":{
+      "fr":"Visualiser les polices"},
+    "description":"Click on this dropdown menu to display all fonts available",
+    "description_i18n":{
+      "fr":"Cliquez sur le menu déroulant pour afficher toutes les polices disponibles"}
+  },{
+    "actionZone":["rectangle", [140, 275, 200, 300]],
+    "title":"Choosing a font",
+    "title_i18n":{
+      "fr":"Choisir une police"},
+    "description":"Choose your favorite font and click on the page when ready to write",
+    "description_i18n":{
+      "fr":"Choisissez votre police favorite et cliquez ensuite sur la page pour écrire"},
+    "descriptionPosition":["point", [25, 40]]
+  },{
+    "actionZone":["rectangle", [140, 275, 700, 500]],
+    "title":"Free writing",
+    "title_i18n":{
+      "fr":"Écriture libre"},
+    "description":"Have fun!",
+    "description_i18n":{
+      "fr":"Amusez-vous!"},
+    "descriptionPosition":["point", [40, 225]],
+    "previousStepClick":["point", [363, 72]]
+  }],
+  "configFiles":[{
+    "defaultConfigFile":"~/.tutotest/test_config1.conf",
+    "fileToOverride":"~/.tutotest/test_config2.conf"
+  },{
+    "defaultConfigFile":"zoran=3\npogne=1\ntibruns=2\n",
+    "fileToOverride":"~/.tutotest/test_config3.ini"
+  }]
+}

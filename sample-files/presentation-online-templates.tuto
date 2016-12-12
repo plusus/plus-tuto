@@ -1,0 +1,75 @@
+{
+  "tutofileversion":0,
+  "application":"/usr/share/applications/wps-office-wpp.desktop",
+  "application_version":"10.1.0.5672~a21",
+  "width":800,
+  "height":600,
+  "windowTitleFilter":"Presentation",
+  "windowTitleFilter_i18n":{
+    "fr":"Presentation"},
+  "name":"Online templates",
+  "name_i18n":{
+    "fr":"Modèles en ligne"},
+  "description":"How to fetch a beautiful online template",
+  "description_i18n":{
+    "fr":"Comment aller chercher de beaux modèles en ligne"},
+  "steps":[{
+    "actionZone":["rectangle", [792, 164, 799, 573]],
+    "title":"Open new document panel",
+    "title_i18n":{
+      "fr":"Ouvrir le panneau de nouveau document"},
+    "description":"Click on the arrow on the right to open the new document panel",
+    "description_i18n":{
+      "fr":"Cliquez sur la flèche à droite pour ouvrir le panneau de nouvelle présentation"}
+  },{
+    "actionZone":["rectangle", [586, 460, 763, 474]],
+    "title":"Open online templates",
+    "title_i18n":{
+      "fr":"Ouvrir les modèles en ligne"},
+    "description":"Click here to open online templates",
+    "description_i18n":{
+      "fr":"Cliquez ici pour ouvrir les modèles en ligne"},
+    "previousStepClick":["point", [794, 392]]
+  },{
+    "actionZone":["rectangle", [130, 513, 154, 536]],
+    "title":"Filter template color",
+    "title_i18n":{
+      "fr":"Filtrer les modèles par couleur"},
+    "description":"You can filter the templates by color",
+    "description_i18n":{
+      "fr":"Vous pouvez filtrer les modèles par couleur"},
+    "previousStepClick":["point", [358, 145]]
+  },{
+    "actionZone":["rectangle", [213, 253, 340, 354]],
+    "title":"Selecting a template",
+    "title_i18n":{
+      "fr":"Choisir un modèle"},
+    "description":"Choose a template",
+    "description_i18n":{
+      "fr":"Choisissez un modèle"},
+    "previousStepClick":["point", [144, 523]]
+  },{
+    "actionZone":["rectangle", [471, 515, 497, 544]],
+    "title":"Download a template",
+    "title_i18n":{
+      "fr":"Télécharger le modèle"},
+    "description":"Click on the Download button",
+    "description_i18n":{
+      "fr":"Cliquez sur le bouton de téléchargement"},
+    "previousStepClick":["point", [192, 565]]
+  },{
+    "actionZone":["rectangle", [110, 219, 463, 484]],
+    "title":"Waiting for download",
+    "title_i18n":{
+      "fr":"Attente du téléchargement"},
+    "description":"Wait for the download to finish to see the new template",
+    "description_i18n":{
+      "fr":"Attendez que le téléchargement soit finit pour voir le nouveau modèle"},
+    "descriptionPosition":["point", [5, 150]],
+    "previousStepClick":["point", [271, 147]]
+  }],
+  "configFiles":[{
+    "defaultConfigFile":"#DEFAULT#/WpsOffice.conf",
+    "fileToOverride":"~/.config/Kingsoft/Office.conf"
+  }]
+}

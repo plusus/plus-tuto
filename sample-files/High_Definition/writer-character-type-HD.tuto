@@ -1,0 +1,75 @@
+{
+  "tutofileversion":0,
+  "application":"/usr/share/applications/wps-office-wps.desktop",
+  "application_version":"10.1.0.5672~a21",
+  "width":800,
+  "height":600,
+  "windowTitleFilter":"Writer",
+  "windowTitleFilter_i18n":{
+    "fr":"Writer"},
+  "name":"Changing character type",
+  "name_i18n":{
+    "fr":"Changer le type de caractères"},
+  "description":"Change between italic, bold and underligned characters",
+  "description_i18n":{
+    "fr":"Changer entre caractère gras, italique et souligné"},
+  "steps":[{
+    "actionZone":["rectangle", [269, 94, 283, 112]],
+    "title":"Selecting bold character",
+    "title_i18n":{
+      "fr":"Sélectionner le caractère gras"},
+    "description":"Click on the B icon",
+    "description_i18n":{
+      "fr":"Cliquez sur l'icône B"}
+  },{
+    "actionZone":["rectangle", [140, 275, 700, 500]],
+    "title":"Test your new writing",
+    "title_i18n":{
+      "fr":"Testez votre nouvelle écriture"},
+    "description":"Test your new writing",
+    "description_i18n":{
+      "fr":"Testez votre nouvelle écriture"},
+    "descriptionPosition":["point", [40, 225]],
+    "previousStepClick":["point", [226, 103]]
+  },{
+    "actionZone":["rectangle", [291, 94, 304, 112]],
+    "title":"Selecting italic character",
+    "title_i18n":{
+      "fr":"Sélectionner le caractère italique"},
+    "description":"Click on the I icon",
+    "description_i18n":{
+      "fr":"Cliquez sur l'icône I"}
+  },{
+    "actionZone":["rectangle", [140, 275, 700, 500]],
+    "title":"Test your new writing",
+    "title_i18n":{
+      "fr":"Testez votre nouvelle écriture"},
+    "description":"Test your new writing",
+    "description_i18n":{
+      "fr":"Testez votre nouvelle écriture"},
+    "descriptionPosition":["point", [40, 225]],
+    "previousStepClick":["point", [248, 103]]
+  },{
+    "actionZone":["rectangle", [312, 94, 326, 112]],
+    "title":"Selecting underline character",
+    "title_i18n":{
+      "fr":"Sélectionner le caractère souligné"},
+    "description":"Click on the U icon",
+    "description_i18n":{
+      "fr":"Cliquez sur l'icône U"}
+  },{
+    "actionZone":["rectangle", [140, 275, 700, 500]],
+    "title":"Test your new writing",
+    "title_i18n":{
+      "fr":"Testez votre nouvelle écriture"},
+    "description":"Test your new writing",
+    "description_i18n":{
+      "fr":"Testez votre nouvelle écriture"},
+    "descriptionPosition":["point", [40, 225]],
+    "previousStepClick":["point", [277, 103]]
+  }],
+  "configFiles":[{
+    "defaultConfigFile":"#DEFAULT#/WpsOffice.conf",
+    "fileToOverride":"~/.config/Kingsoft/Office.conf"
+  }]
+}

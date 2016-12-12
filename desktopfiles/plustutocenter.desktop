@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Tutorial Center
+Name[fr]=Centre de Tutoriels
+Exec=plustutocenter
+Icon=plustutocenter
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=Utility

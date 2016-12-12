@@ -1,0 +1,10 @@
+{
+  "tutofileversion":0,
+  "application":"/usr/share/applications/inkscape.desktop",
+  "windowTitleFilter":"",
+  "name":"Yet another test tutorial",
+  "description":"This is yet another sample tutorial",
+  "width":800,
+  "height":600,
+  "steps":[]
+}

@@ -1,0 +1,37 @@
+{
+  "tutofileversion":0,
+  "application":"/usr/share/applications/wps-office-wps.desktop",
+  "windowTitleFilter":"Writer",
+  "name":"How to select a font",
+  "description":"Choosing a nice font",
+  "width":800,
+  "height":600,
+  "steps":[{
+    "actionZone":["rectangle", [350, 137, 365, 152]],
+    "title":"Closing the online templates",
+    "description":"Click on the X to close the online templates"
+  },{
+    "actionZone":["rectangle", [171, 309, 238, 400]],
+    "title":"Create a blank file",
+    "description":"Click on the icon to create a new blank file"
+  },{
+    "actionZone":["rectangle", [357, 65, 368, 80]],
+    "title":"Showing showing the fonts",
+    "description":"Click on this dropdown menu to display all fonts available"
+  },{
+    "actionZone":["rectangle", [140, 275, 200, 300]],
+    "title":"Choosing a font",
+    "description":"Choose your favorite font and click on the page when ready to write",
+    "descriptionPosition":["point", [25, 40]]
+  },{
+    "actionZone":["rectangle", [140, 275, 700, 500]],
+    "title":"Free writing",
+    "description":"Have fun!",
+    "descriptionPosition":["point", [40, 225]],
+    "previousStepClick":["point", [363, 72]]
+  }],
+  "configFiles":[{
+    "defaultConfigFile":"#DEFAULT#/WpsOffice.conf",
+    "fileToOverride":"~/.config/Kingsoft/Office.conf"
+  }]
+}

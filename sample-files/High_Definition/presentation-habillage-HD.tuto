@@ -1,0 +1,37 @@
+{
+  "tutofileversion":0,
+  "application":"/usr/share/applications/wps-office-wpp.desktop",
+  "application_version":"10.1.0.5672~a21",
+  "width":800,
+  "height":600,
+  "windowTitleFilter":"Presentation",
+  "windowTitleFilter_i18n":{
+    "fr":"Presentation"},
+  "name":"Layout",
+  "name_i18n":{
+    "fr":"Disposition"},
+  "description":"Choose a layout",
+  "description_i18n":{
+    "fr":"Choisir une disposition"},
+  "steps":[{
+    "actionZone":["rectangle", [635, 61, 728, 81]],
+    "title":"Show different layouts",
+    "title_i18n":{
+      "fr":"Afficher les dispositions"},
+    "description":"Click on the Layout button to show different layouts",
+    "description_i18n":{
+      "fr":"Cliquez sur le bouton Habillage pour afficher les différentes dispositions"}
+  },{
+    "actionZone":["rectangle", [635, 61, 728, 81]],
+    "title":"Choose a layout",
+    "title_i18n":{
+      "fr":"Choisir une disposition"},
+    "description":"Click on a layout and then click on Layout Button to exit",
+    "description_i18n":{
+      "fr":"Cliquez sur une disposition et cliquez sur le bouton Habillage pour quitter"}
+  }],
+  "configFiles":[{
+    "defaultConfigFile":"#DEFAULT#/WpsOffice.conf",
+    "fileToOverride":"~/.config/Kingsoft/Office.conf"
+  }]
+}
